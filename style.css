@@ -8,6 +8,7 @@ body {
     background-image: url(images/1464277997536Screen_Shot_2016-05-26_at_11.52.39_AM.avif);
     background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     color: rgb(0, 0, 0);
     height: 400px;
     padding: 20px;
