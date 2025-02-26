@@ -39,7 +39,7 @@ header .Logo a {
   width: 300px;
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 768px) {
   header {
     height: 250px;
     background-position: 0 -30px;
@@ -50,14 +50,6 @@ header .Logo a {
   header .desktop {
     display: none;
   }
-}
-
-@media screen and (max-width: 500px) {
-  header {
-    height: 200px; 
-    background-position: 0 -0px ;
-  }
-  
 }
 
 .features {
