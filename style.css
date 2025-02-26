@@ -1,0 +1,128 @@
+body {
+  background-color: lightgray;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-image: url(images/imresizer-1740561479583.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  height: 300px;
+  padding: 80px;  
+  text-align: center;
+}
+
+header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 20px;
+  position: relative;
+  top: -70px;
+}
+
+header .mobile {
+  display: none;
+}
+
+header .Logo a {
+  background-image: url(images/FOTO_SATELIT_KACA_2-removebg-preview.png);
+  background-size:300px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  position: relative;
+  text-indent: -9999999999999px;
+  top: -110px;
+  width: 300px;
+}
+
+@media screen and (max-width: 715px) {
+  header {
+    height: 250px;
+    background-position: 0 -30px;
+  }
+  header .mobile {
+    display: inline-block;
+  }
+  header .desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 200px; 
+    background-position: 0 -0px ;
+  }
+  
+}
+
+.features {
+  background: white;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features figure {
+  margin: auto;
+  text-align: center;
+  width: 250px;
+  text-transform: uppercase;
+}
+
+.features figure img{
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: rgb(84, 83, 83) 0 0 15px;
+}
+
+section {
+  background: white;
+  color: gray;
+  height: 800px;
+  padding: 20px;
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+li {
+  display: inline-block;
+  margin-right: 0px;
+}
+
+
+.content {
+  flex: 1; 
+}
+
+.footer-container {
+  height: 40px; /* Set a smaller fixed height */
+  padding: 5px 0; /* Reduce padding to avoid extra space */
+  display: flex;
+  align-items: center; /* Center content inside the footer */
+  justify-content: center;
+  background-color: gray; /* Keep your footer style */
+}
+
+.instagram-logo {
+  background-image: url(images/satelitkaca\(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 250px; /* Increase size */
+  height: 150px; /* Increase size */
+}
+
