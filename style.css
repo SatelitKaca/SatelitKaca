@@ -54,6 +54,9 @@ header .Logo a {
   header {
     height: 200px; /* Further reduce height for smaller devices */
   }
+  header a {
+    margin-right: 10px;
+  }
   header .Logo a {
     height: 100px; /* Adjust logo height for smaller devices */
   }
