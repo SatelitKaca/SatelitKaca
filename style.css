@@ -59,13 +59,13 @@ header .Logo a {
 
 @media screen and (max-width: 600px) {
   header {
-    background-position-x: center;
+    background-position-x: -150px;
     background-position-y: -20px;
     background-size: 700px;
     height: 200px; /* Further reduce height for smaller devices */
   }
   header a {
-    margin-right: 10px;
+    margin-right: 7px;
   }
   header .Logo a {
     height: 100px; /* Adjust logo height for smaller devices */
