@@ -78,7 +78,7 @@ header .Logo a {
 }
 
 .features figure img {
-  width: 50%; /* Make images responsive */
+  width: 75%; /* Make images responsive */
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: rgb(84, 83, 83) 0 0 15px;
@@ -121,6 +121,6 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100px; /* Adjust size for mobile */
-  height: 100px; /* Adjust size for mobile */
+  width: 250px; /* Adjust size for mobile */
+  height: 150px; /* Adjust size for mobile */
 }
