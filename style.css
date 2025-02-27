@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url(images/Paper\ Texture\ Motivational\ Desktop\ Wallpaper.png);
+  background-image: url(images/HEADER.png);
   background-size: 100%;
   background-position-x: 0px;
   background-position-y: -210px;
@@ -45,6 +45,7 @@ header .Logo a {
 
 @media screen and (max-width: 800px) {
   header {
+    height: 250px;
     background-size: 100%;
     padding: 15px; /* Further reduce padding for mobile */
   }
