@@ -1,3 +1,4 @@
+
 body {
   background-color: lightgray;
   color: rgb(0, 0, 0);
@@ -5,15 +6,20 @@ body {
 }
 
 header {
-  background-image: url(images/imresizer-1740561479583.jpg);
-  background-size: cover; /* Change to cover for better responsiveness */
-  background-position: center;
+  background-image: url(images/Paper\ Texture\ Motivational\ Desktop\ Wallpaper.png);
+  background-size: 100%;
+  background-position-x: 0px;
+  background-position-y: -210px;
   background-repeat: no-repeat;
-  color: rgb(255, 255, 255);
   height: 300px;
   padding: 20px; /* Reduce padding for smaller screens */
   text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
 }
+
+
+
 
 header a {
   color: rgb(0, 0, 0);
@@ -39,8 +45,8 @@ header .Logo a {
 
 @media screen and (max-width: 800px) {
   header {
-    height: 250px;
-    padding: 10px; /* Further reduce padding for mobile */
+    background-size: 100%;
+    padding: 15px; /* Further reduce padding for mobile */
   }
   header .mobile {
     display: inline-block;
@@ -52,6 +58,9 @@ header .Logo a {
 
 @media screen and (max-width: 600px) {
   header {
+    background-position-x: center;
+    background-position-y: -20px;
+    background-size: 700px;
     height: 200px; /* Further reduce height for smaller devices */
   }
   header a {
@@ -78,7 +87,7 @@ header .Logo a {
 }
 
 .features figure img {
-  width: 75%; /* Make images responsive */
+  width: 50%; /* Make images responsive */
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: rgb(84, 83, 83) 0 0 15px;
