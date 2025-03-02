@@ -55,6 +55,10 @@ header .Logo a {
   header .desktop {
     display: none;
   }
+  section .brochure-photo{
+    width: 50%;
+    margin-left: -300px; /* Moves it to the right */
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -65,7 +69,7 @@ header .Logo a {
     height: 200px; /* Further reduce height for smaller devices */
   }
   header a {
-    margin-right: 5px;
+    margin-right: 7px;
   }
   header .Logo a {
     height: 100px; /* Adjust logo height for smaller devices */
@@ -88,7 +92,7 @@ header .Logo a {
 }
 
 .features figure img {
-  width: 75%; /* Make images responsive */
+  width: 50%; /* Make images responsive */
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: rgb(84, 83, 83) 0 0 15px;
@@ -102,6 +106,14 @@ section {
   display: flex;
 }
 
+section .brochure-photo{
+  width: 100%;
+  margin-left: 110px; /* Moves it to the right */
+}
+
+
+
+
 ul {
   margin: 0;
   padding: 0;
@@ -110,7 +122,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 5px; /* Add margin for spacing */
+  margin-right: 10px; /* Add margin for spacing */
 }
 
 .content {
