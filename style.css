@@ -12,7 +12,7 @@ header {
   background-position-y: -210px;
   background-repeat: no-repeat;
   height: 300px;
-  padding: 20px; /* Reduce padding for smaller screens */
+  padding: 20px; 
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
@@ -47,7 +47,7 @@ header .Logo a {
   header {
     height: 250px;
     background-size: 100%;
-    padding: 15px; /* Further reduce padding for mobile */
+    padding: 15px; 
   }
   header .mobile {
     display: inline-block;
@@ -56,9 +56,19 @@ header .Logo a {
     display: none;
   }
   .brochure-photo {
-    width: 90%; /* Resize for smaller screens */
+    width: 90%; 
+  }
+  .location-icon img {
+    width: 170px;  
+    height: 70px;  
+  }
+
+  .location-icon {
+    top: 15px;  
+    right: 15px;  
   }
 }
+
 
 
 @media screen and (max-width: 600px) {
@@ -66,18 +76,29 @@ header .Logo a {
     background-position-x: -150px;
     background-position-y: -20px;
     background-size: 700px;
-    height: 200px; /* Further reduce height for smaller devices */
+    height: 200px; 
   }
   header a {
     margin-right: 7px;
   }
   header .Logo a {
-    height: 100px; /* Adjust logo height for smaller devices */
+    height: 100px; 
   }
   .brochure-photo {
     width: 95%;
   }
+  section .location-icon img {
+    width: 110px;  
+    height: 60px;  
+  }
+
+  section .location-icon {
+    top: 52%;  
+    right: 22%;  
+  }
 }
+  
+
 
 
 .features {
@@ -90,13 +111,13 @@ header .Logo a {
 }
 
 .features figure {
-  margin: 10px; /* Add margin for spacing */
+  margin: 10px; 
   text-align: center;
-  width: calc(50% - 20px); /* Use calc to allow for margins */
+  width: calc(50% - 20px); 
 }
 
 .features figure img {
-  width: 50%; /* Make images responsive */
+  width: 50%; 
   border-radius: 50%;
   border: 1px solid white;
   box-shadow: rgb(84, 83, 83) 0 0 15px;
@@ -106,29 +127,63 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: white; /* Ensures background color covers full height */
+  background: white; 
 }
 
 section {
-  min-height: 100vh; /* Makes sure the section fills the viewport */
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-
 .middle-section {
-  width: 100%; /* Ensure it takes full width */
+  width: 100%; 
   display: flex;
-  justify-content: center; /* Center content inside */
+  justify-content: center; 
 }
 
 .brochure-photo {
-  width: 80%; /* Adjust width for responsiveness */
+  width: 80%; 
   max-width: 100%;
 }
 
+
+.house-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%; 
+  margin: 0 auto; 
+}
+
+
+.house-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+
+.location-icon {
+  position: absolute;
+  right: 27%;
+  bottom: 40%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.location-icon img {
+  width: 200px;
+  height: 120px;
+}
+
+
+.location-icon:hover img {
+  opacity: 0.8;
+}
 
 
 
@@ -140,7 +195,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 10px; /* Add margin for spacing */
+  margin-right: 10px; 
 }
 
 .content {
@@ -148,19 +203,20 @@ li {
 }
 
 .footer-container {
-  height: 40px; /* Keep smaller fixed height */
-  padding: 5px 0; /* Reduce padding */
+  height: 40px; 
+  padding: 5px 0; 
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: gray; /* Keep footer style */
-}
+  background-color: gray; 
 
 .instagram-logo {
   background-image: url(images/satelitkaca\(1\).png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 250px; /* Adjust size for mobile */
-  height: 150px; /* Adjust size for mobile */
+  width: 250px; 
+  height: 150px; 
+}
+
 }
