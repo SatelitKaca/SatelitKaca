@@ -19,8 +19,6 @@ header {
 }
 
 
-
-
 header a {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -41,6 +39,7 @@ header .Logo a {
   text-indent: -9999999999999px;
   top: -30px;
   width: 300px;
+  transition: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -178,11 +177,17 @@ section {
 .location-icon img {
   width: 200px;
   height: 120px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
 
 .location-icon:hover img {
   opacity: 0.8;
+  transform: translateY(-10px);
+  color: red;
 }
 
 
@@ -196,7 +201,18 @@ ul {
 li {
   display: inline-block;
   margin-right: 10px; 
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
+
+li:hover {
+  opacity: 0.8;
+  transform: translateY(-5px)
+}
+
+
 
 .content {
   flex: 1;
